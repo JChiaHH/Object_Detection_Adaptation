@@ -1,0 +1,343 @@
+{
+  "AP@0.50": {
+    "per_class": {
+      "portable_sound_meter": 0.6634,
+      "fixed_noise_monitor": 0.5644,
+      "portable_sound_barrier": 0.5474,
+      "fixed_sound_barrier": 1.0,
+      "measuring_tape": 0.8713
+    },
+    "mAP": 0.7293
+  },
+  "AP@0.50:0.95": {
+    "per_class": {
+      "portable_sound_meter": 0.6634,
+      "fixed_noise_monitor": 0.5644,
+      "portable_sound_barrier": 0.5474,
+      "fixed_sound_barrier": 1.0,
+      "measuring_tape": 0.7753
+    },
+    "mAP": 0.7101
+  },
+  "n_gt": {
+    "portable_sound_meter": 3,
+    "fixed_noise_monitor": 4,
+    "portable_sound_barrier": 5,
+    "fixed_sound_barrier": 4,
+    "measuring_tape": 8
+  },
+  "full_results": {
+    "IoU_0.50": {
+      "per_class": {
+        "portable_sound_meter": {
+          "ap": 0.6634,
+          "n_gt": 3,
+          "n_pred": 2
+        },
+        "fixed_noise_monitor": {
+          "ap": 0.5644,
+          "n_gt": 4,
+          "n_pred": 5
+        },
+        "portable_sound_barrier": {
+          "ap": 0.5474,
+          "n_gt": 5,
+          "n_pred": 7
+        },
+        "fixed_sound_barrier": {
+          "ap": 1.0,
+          "n_gt": 4,
+          "n_pred": 4
+        },
+        "measuring_tape": {
+          "ap": 0.8713,
+          "n_gt": 8,
+          "n_pred": 7
+        }
+      },
+      "mAP": 0.7293
+    },
+    "IoU_0.55": {
+      "per_class": {
+        "portable_sound_meter": {
+          "ap": 0.6634,
+          "n_gt": 3,
+          "n_pred": 2
+        },
+        "fixed_noise_monitor": {
+          "ap": 0.5644,
+          "n_gt": 4,
+          "n_pred": 5
+        },
+        "portable_sound_barrier": {
+          "ap": 0.5474,
+          "n_gt": 5,
+          "n_pred": 7
+        },
+        "fixed_sound_barrier": {
+          "ap": 1.0,
+          "n_gt": 4,
+          "n_pred": 4
+        },
+        "measuring_tape": {
+          "ap": 0.8713,
+          "n_gt": 8,
+          "n_pred": 7
+        }
+      },
+      "mAP": 0.7293
+    },
+    "IoU_0.60": {
+      "per_class": {
+        "portable_sound_meter": {
+          "ap": 0.6634,
+          "n_gt": 3,
+          "n_pred": 2
+        },
+        "fixed_noise_monitor": {
+          "ap": 0.5644,
+          "n_gt": 4,
+          "n_pred": 5
+        },
+        "portable_sound_barrier": {
+          "ap": 0.5474,
+          "n_gt": 5,
+          "n_pred": 7
+        },
+        "fixed_sound_barrier": {
+          "ap": 1.0,
+          "n_gt": 4,
+          "n_pred": 4
+        },
+        "measuring_tape": {
+          "ap": 0.8713,
+          "n_gt": 8,
+          "n_pred": 7
+        }
+      },
+      "mAP": 0.7293
+    },
+    "IoU_0.65": {
+      "per_class": {
+        "portable_sound_meter": {
+          "ap": 0.6634,
+          "n_gt": 3,
+          "n_pred": 2
+        },
+        "fixed_noise_monitor": {
+          "ap": 0.5644,
+          "n_gt": 4,
+          "n_pred": 5
+        },
+        "portable_sound_barrier": {
+          "ap": 0.5474,
+          "n_gt": 5,
+          "n_pred": 7
+        },
+        "fixed_sound_barrier": {
+          "ap": 1.0,
+          "n_gt": 4,
+          "n_pred": 4
+        },
+        "measuring_tape": {
+          "ap": 0.7341,
+          "n_gt": 8,
+          "n_pred": 7
+        }
+      },
+      "mAP": 0.7019
+    },
+    "IoU_0.70": {
+      "per_class": {
+        "portable_sound_meter": {
+          "ap": 0.6634,
+          "n_gt": 3,
+          "n_pred": 2
+        },
+        "fixed_noise_monitor": {
+          "ap": 0.5644,
+          "n_gt": 4,
+          "n_pred": 5
+        },
+        "portable_sound_barrier": {
+          "ap": 0.5474,
+          "n_gt": 5,
+          "n_pred": 7
+        },
+        "fixed_sound_barrier": {
+          "ap": 1.0,
+          "n_gt": 4,
+          "n_pred": 4
+        },
+        "measuring_tape": {
+          "ap": 0.7341,
+          "n_gt": 8,
+          "n_pred": 7
+        }
+      },
+      "mAP": 0.7019
+    },
+    "IoU_0.75": {
+      "per_class": {
+        "portable_sound_meter": {
+          "ap": 0.6634,
+          "n_gt": 3,
+          "n_pred": 2
+        },
+        "fixed_noise_monitor": {
+          "ap": 0.5644,
+          "n_gt": 4,
+          "n_pred": 5
+        },
+        "portable_sound_barrier": {
+          "ap": 0.5474,
+          "n_gt": 5,
+          "n_pred": 7
+        },
+        "fixed_sound_barrier": {
+          "ap": 1.0,
+          "n_gt": 4,
+          "n_pred": 4
+        },
+        "measuring_tape": {
+          "ap": 0.7341,
+          "n_gt": 8,
+          "n_pred": 7
+        }
+      },
+      "mAP": 0.7019
+    },
+    "IoU_0.80": {
+      "per_class": {
+        "portable_sound_meter": {
+          "ap": 0.6634,
+          "n_gt": 3,
+          "n_pred": 2
+        },
+        "fixed_noise_monitor": {
+          "ap": 0.5644,
+          "n_gt": 4,
+          "n_pred": 5
+        },
+        "portable_sound_barrier": {
+          "ap": 0.5474,
+          "n_gt": 5,
+          "n_pred": 7
+        },
+        "fixed_sound_barrier": {
+          "ap": 1.0,
+          "n_gt": 4,
+          "n_pred": 4
+        },
+        "measuring_tape": {
+          "ap": 0.7341,
+          "n_gt": 8,
+          "n_pred": 7
+        }
+      },
+      "mAP": 0.7019
+    },
+    "IoU_0.85": {
+      "per_class": {
+        "portable_sound_meter": {
+          "ap": 0.6634,
+          "n_gt": 3,
+          "n_pred": 2
+        },
+        "fixed_noise_monitor": {
+          "ap": 0.5644,
+          "n_gt": 4,
+          "n_pred": 5
+        },
+        "portable_sound_barrier": {
+          "ap": 0.5474,
+          "n_gt": 5,
+          "n_pred": 7
+        },
+        "fixed_sound_barrier": {
+          "ap": 1.0,
+          "n_gt": 4,
+          "n_pred": 4
+        },
+        "measuring_tape": {
+          "ap": 0.7341,
+          "n_gt": 8,
+          "n_pred": 7
+        }
+      },
+      "mAP": 0.7019
+    },
+    "IoU_0.90": {
+      "per_class": {
+        "portable_sound_meter": {
+          "ap": 0.6634,
+          "n_gt": 3,
+          "n_pred": 2
+        },
+        "fixed_noise_monitor": {
+          "ap": 0.5644,
+          "n_gt": 4,
+          "n_pred": 5
+        },
+        "portable_sound_barrier": {
+          "ap": 0.5474,
+          "n_gt": 5,
+          "n_pred": 7
+        },
+        "fixed_sound_barrier": {
+          "ap": 1.0,
+          "n_gt": 4,
+          "n_pred": 4
+        },
+        "measuring_tape": {
+          "ap": 0.7341,
+          "n_gt": 8,
+          "n_pred": 7
+        }
+      },
+      "mAP": 0.7019
+    },
+    "IoU_0.95": {
+      "per_class": {
+        "portable_sound_meter": {
+          "ap": 0.6634,
+          "n_gt": 3,
+          "n_pred": 2
+        },
+        "fixed_noise_monitor": {
+          "ap": 0.5644,
+          "n_gt": 4,
+          "n_pred": 5
+        },
+        "portable_sound_barrier": {
+          "ap": 0.5474,
+          "n_gt": 5,
+          "n_pred": 7
+        },
+        "fixed_sound_barrier": {
+          "ap": 1.0,
+          "n_gt": 4,
+          "n_pred": 4
+        },
+        "measuring_tape": {
+          "ap": 0.7341,
+          "n_gt": 8,
+          "n_pred": 7
+        }
+      },
+      "mAP": 0.7019
+    }
+  },
+  "metadata": {
+    "detections_file": "output/detections.json",
+    "ground_truth_file": "ground_truth.json",
+    "num_frames": 20,
+    "classes": [
+      "portable_sound_meter",
+      "fixed_noise_monitor",
+      "portable_sound_barrier",
+      "fixed_sound_barrier",
+      "measuring_tape"
+    ]
+  }
+}

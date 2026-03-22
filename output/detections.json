@@ -1,0 +1,482 @@
+{
+  "model": "google/owlv2-base-patch16-ensemble",
+  "confidence_threshold": 0.3,
+  "nms_iou_threshold": 0.3,
+  "text_prompts": [
+    "handheld sound level meter held by person",
+    "noise monitoring box mounted on a pole",
+    "portable acoustic barrier or enclosure around construction equipment",
+    "tall hoarding wall along construction site boundary",
+    "tape measure with measurement markings"
+  ],
+  "num_frames": 20,
+  "total_inference_time_s": 5.61,
+  "avg_fps": 3.56,
+  "detections": {
+    "acousticBarrier_w_context_1.png": [
+      {
+        "class_id": 3,
+        "class_name": "fixed_sound_barrier",
+        "confidence": 0.4483,
+        "bbox_pixel": [
+          156.0,
+          471.0,
+          1237.0,
+          783.0
+        ],
+        "bbox_normalized": [
+          0.116592,
+          0.532203,
+          0.807922,
+          0.352542
+        ]
+      },
+      {
+        "class_id": 2,
+        "class_name": "portable_sound_barrier",
+        "confidence": 0.448,
+        "bbox_pixel": [
+          139.0,
+          760.0,
+          1337.0,
+          882.0
+        ],
+        "bbox_normalized": [
+          0.103886,
+          0.858757,
+          0.895366,
+          0.137853
+        ]
+      }
+    ],
+    "acousticBarrier_w_context_4.png": [
+      {
+        "class_id": 3,
+        "class_name": "fixed_sound_barrier",
+        "confidence": 0.4102,
+        "bbox_pixel": [
+          16.0,
+          245.0,
+          1560.0,
+          945.0
+        ],
+        "bbox_normalized": [
+          0.010492,
+          0.253623,
+          1.012459,
+          0.724638
+        ]
+      }
+    ],
+    "acoustic_barrier_w_context_3.jpg": [
+      {
+        "class_id": 2,
+        "class_name": "portable_sound_barrier",
+        "confidence": 0.3678,
+        "bbox_pixel": [
+          119.0,
+          234.0,
+          1092.0,
+          766.0
+        ],
+        "bbox_normalized": [
+          0.104203,
+          0.273046,
+          0.852014,
+          0.62077
+        ]
+      }
+    ],
+    "acousticbarrier_1.jpeg": [
+      {
+        "class_id": 2,
+        "class_name": "portable_sound_barrier",
+        "confidence": 0.4475,
+        "bbox_pixel": [
+          88.0,
+          83.0,
+          283.0,
+          177.0
+        ],
+        "bbox_normalized": [
+          0.309859,
+          0.468927,
+          0.68662,
+          0.531073
+        ]
+      }
+    ],
+    "acousticbarrier_2.jpeg": [
+      {
+        "class_id": 2,
+        "class_name": "portable_sound_barrier",
+        "confidence": 0.6413,
+        "bbox_pixel": [
+          32.0,
+          33.0,
+          230.0,
+          157.0
+        ],
+        "bbox_normalized": [
+          0.123552,
+          0.170103,
+          0.764479,
+          0.639175
+        ]
+      }
+    ],
+    "acousticbarrier_3.jpg": [
+      {
+        "class_id": 2,
+        "class_name": "portable_sound_barrier",
+        "confidence": 0.5711,
+        "bbox_pixel": [
+          614.0,
+          217.0,
+          1142.0,
+          680.0
+        ],
+        "bbox_normalized": [
+          0.472308,
+          0.226987,
+          0.406154,
+          0.48431
+        ]
+      }
+    ],
+    "acousticbarrier_w_context_1.jpeg": [
+      {
+        "class_id": 2,
+        "class_name": "portable_sound_barrier",
+        "confidence": 0.5574,
+        "bbox_pixel": [
+          143.0,
+          5.0,
+          239.0,
+          192.0
+        ],
+        "bbox_normalized": [
+          0.552124,
+          0.025773,
+          0.370656,
+          0.963918
+        ]
+      },
+      {
+        "class_id": 3,
+        "class_name": "fixed_sound_barrier",
+        "confidence": 0.4599,
+        "bbox_pixel": [
+          12.0,
+          69.0,
+          91.0,
+          151.0
+        ],
+        "bbox_normalized": [
+          0.046332,
+          0.35567,
+          0.305019,
+          0.42268
+        ]
+      }
+    ],
+    "measuring_tape.jpeg": [
+      {
+        "class_id": 4,
+        "class_name": "measuring_tape",
+        "confidence": 0.6882,
+        "bbox_pixel": [
+          56.0,
+          76.0,
+          263.0,
+          166.0
+        ],
+        "bbox_normalized": [
+          0.203636,
+          0.415301,
+          0.752727,
+          0.491803
+        ]
+      }
+    ],
+    "measuringtape2.png": [
+      {
+        "class_id": 4,
+        "class_name": "measuring_tape",
+        "confidence": 0.6336,
+        "bbox_pixel": [
+          167.0,
+          128.0,
+          1012.0,
+          1035.0
+        ],
+        "bbox_normalized": [
+          0.155204,
+          0.120414,
+          0.785316,
+          0.853246
+        ]
+      }
+    ],
+    "measuringtape_1.jpg": [
+      {
+        "class_id": 4,
+        "class_name": "measuring_tape",
+        "confidence": 0.6312,
+        "bbox_pixel": [
+          242.0,
+          8.0,
+          1151.0,
+          689.0
+        ],
+        "bbox_normalized": [
+          0.189062,
+          0.011111,
+          0.710156,
+          0.945833
+        ]
+      }
+    ],
+    "measuringtape_3.jpg": [
+      {
+        "class_id": 4,
+        "class_name": "measuring_tape",
+        "confidence": 0.4382,
+        "bbox_pixel": [
+          54.0,
+          294.0,
+          541.0,
+          725.0
+        ],
+        "bbox_normalized": [
+          0.036,
+          0.294,
+          0.324667,
+          0.431
+        ]
+      },
+      {
+        "class_id": 4,
+        "class_name": "measuring_tape",
+        "confidence": 0.395,
+        "bbox_pixel": [
+          894.0,
+          270.0,
+          1472.0,
+          735.0
+        ],
+        "bbox_normalized": [
+          0.596,
+          0.27,
+          0.385333,
+          0.465
+        ]
+      }
+    ],
+    "measuringtape_w_context_1.png": [
+      {
+        "class_id": 4,
+        "class_name": "measuring_tape",
+        "confidence": 0.5739,
+        "bbox_pixel": [
+          878.0,
+          916.0,
+          1501.0,
+          1041.0
+        ],
+        "bbox_normalized": [
+          0.493813,
+          0.71284,
+          0.350394,
+          0.097276
+        ]
+      }
+    ],
+    "measuringtape_w_context_2.png": [
+      {
+        "class_id": 4,
+        "class_name": "measuring_tape",
+        "confidence": 0.4141,
+        "bbox_pixel": [
+          254.0,
+          377.0,
+          1122.0,
+          674.0
+        ],
+        "bbox_normalized": [
+          0.224978,
+          0.447743,
+          0.768822,
+          0.352732
+        ]
+      }
+    ],
+    "soundmeter1.png": [
+      {
+        "class_id": 1,
+        "class_name": "fixed_noise_monitor",
+        "confidence": 0.529,
+        "bbox_pixel": [
+          199.0,
+          67.0,
+          281.0,
+          317.0
+        ],
+        "bbox_normalized": [
+          0.430736,
+          0.184573,
+          0.177489,
+          0.688705
+        ]
+      }
+    ],
+    "soundmeter2.png": [
+      {
+        "class_id": 1,
+        "class_name": "fixed_noise_monitor",
+        "confidence": 0.5925,
+        "bbox_pixel": [
+          412.0,
+          20.0,
+          776.0,
+          893.0
+        ],
+        "bbox_normalized": [
+          0.280272,
+          0.022371,
+          0.247619,
+          0.97651
+        ]
+      }
+    ],
+    "soundmeter3.png": [
+      {
+        "class_id": 1,
+        "class_name": "fixed_noise_monitor",
+        "confidence": 0.4869,
+        "bbox_pixel": [
+          232.0,
+          185.0,
+          416.0,
+          720.0
+        ],
+        "bbox_normalized": [
+          0.426471,
+          0.257302,
+          0.338235,
+          0.744089
+        ]
+      }
+    ],
+    "soundmeter4.png": [
+      {
+        "class_id": 1,
+        "class_name": "fixed_noise_monitor",
+        "confidence": 0.4493,
+        "bbox_pixel": [
+          255.0,
+          165.0,
+          311.0,
+          239.0
+        ],
+        "bbox_normalized": [
+          0.46875,
+          0.229485,
+          0.102941,
+          0.102921
+        ]
+      }
+    ],
+    "soundmeter_w_context_1.jpg": [
+      {
+        "class_id": 1,
+        "class_name": "fixed_noise_monitor",
+        "confidence": 0.6142,
+        "bbox_pixel": [
+          586.0,
+          39.0,
+          608.0,
+          452.0
+        ],
+        "bbox_normalized": [
+          0.771053,
+          0.078,
+          0.028947,
+          0.826
+        ]
+      },
+      {
+        "class_id": 2,
+        "class_name": "portable_sound_barrier",
+        "confidence": 0.5663,
+        "bbox_pixel": [
+          114.0,
+          321.0,
+          398.0,
+          487.0
+        ],
+        "bbox_normalized": [
+          0.15,
+          0.642,
+          0.373684,
+          0.332
+        ]
+      },
+      {
+        "class_id": 3,
+        "class_name": "fixed_sound_barrier",
+        "confidence": 0.3887,
+        "bbox_pixel": [
+          56.0,
+          117.0,
+          276.0,
+          266.0
+        ],
+        "bbox_normalized": [
+          0.073684,
+          0.234,
+          0.289474,
+          0.298
+        ]
+      }
+    ],
+    "soundmeter_w_context_2.jpg": [
+      {
+        "class_id": 0,
+        "class_name": "portable_sound_meter",
+        "confidence": 0.5775,
+        "bbox_pixel": [
+          123.0,
+          102.0,
+          169.0,
+          229.0
+        ],
+        "bbox_normalized": [
+          0.574766,
+          0.432203,
+          0.214953,
+          0.538136
+        ]
+      }
+    ],
+    "soundmeter_w_context_3.jpg": [
+      {
+        "class_id": 0,
+        "class_name": "portable_sound_meter",
+        "confidence": 0.5258,
+        "bbox_pixel": [
+          80.0,
+          11.0,
+          142.0,
+          174.0
+        ],
+        "bbox_normalized": [
+          0.276817,
+          0.063218,
+          0.214533,
+          0.936782
+        ]
+      }
+    ]
+  }
+}

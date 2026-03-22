@@ -1,0 +1,27 @@
+{
+  "version": "5.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "fixed_noise_monitor",
+      "points": [
+        [
+          199.0,
+          67.0
+        ],
+        [
+          281.0,
+          317.0
+        ]
+      ],
+      "group_id": null,
+      "description": "confidence: 0.529",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "/home/jeremychia/soundzipper/frames/soundmeter1.png",
+  "imageData": null,
+  "imageHeight": 363,
+  "imageWidth": 462
+}

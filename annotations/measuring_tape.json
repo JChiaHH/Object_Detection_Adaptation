@@ -1,0 +1,27 @@
+{
+  "version": "5.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "measuring_tape",
+      "points": [
+        [
+          56.0,
+          76.0
+        ],
+        [
+          263.0,
+          166.0
+        ]
+      ],
+      "group_id": null,
+      "description": "confidence: 0.6882",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "/home/jeremychia/soundzipper/frames/measuring_tape.jpeg",
+  "imageData": null,
+  "imageHeight": 183,
+  "imageWidth": 275
+}

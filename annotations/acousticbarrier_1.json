@@ -1,0 +1,27 @@
+{
+  "version": "5.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "portable_sound_barrier",
+      "points": [
+        [
+          88.0,
+          83.0
+        ],
+        [
+          283.0,
+          177.0
+        ]
+      ],
+      "group_id": null,
+      "description": "confidence: 0.4475",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "/home/jeremychia/soundzipper/frames/acousticbarrier_1.jpeg",
+  "imageData": null,
+  "imageHeight": 177,
+  "imageWidth": 284
+}

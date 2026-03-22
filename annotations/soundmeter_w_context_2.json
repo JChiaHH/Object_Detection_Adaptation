@@ -1,0 +1,27 @@
+{
+  "version": "5.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "portable_sound_meter",
+      "points": [
+        [
+          123.0,
+          102.0
+        ],
+        [
+          169.0,
+          229.0
+        ]
+      ],
+      "group_id": null,
+      "description": "confidence: 0.5775",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "/home/jeremychia/soundzipper/frames/soundmeter_w_context_2.jpg",
+  "imageData": null,
+  "imageHeight": 236,
+  "imageWidth": 214
+}

@@ -1,0 +1,27 @@
+{
+  "version": "5.3.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "fixed_sound_barrier",
+      "points": [
+        [
+          16.0,
+          245.0
+        ],
+        [
+          1560.0,
+          945.0
+        ]
+      ],
+      "group_id": null,
+      "description": "confidence: 0.4102",
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "/home/jeremychia/soundzipper/frames/acousticBarrier_w_context_4.png",
+  "imageData": null,
+  "imageHeight": 966,
+  "imageWidth": 1525
+}
